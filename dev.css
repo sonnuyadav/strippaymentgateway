@@ -1,0 +1,39 @@
+/*   //////////////     */
+/* Error class*/
+textarea.error,input[type="text"].error, input[type="email"].error, input[type="password"].error{
+  color:red;
+  border: 2px solid red;
+}
+
+textarea.valid,input[type="text"].valid, input[type="email"].valid, input[type="password"].valid{
+  color:green;
+  border: 2px solid green;
+}
+
+label.error{
+  color:red;
+}
+
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  background: #747474;
+    border-color: #747474;
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.error {
+        width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
